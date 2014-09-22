@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="ProcessAutoTools">
+  <DataContextMoniker Name="/ProcessAutoToolsDataContext" />
+  <nestedChildShapes>
+    <classShape Id="2852ae2b-b216-4bf2-9534-0b83a7a463d6" absoluteBounds="1.375, 1.25, 2, 1.3862939453125">
+      <DataClassMoniker Name="/ProcessAutoToolsDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8db57fd9-3200-4080-8457-68a08f639c6e" absoluteBounds="1.3900000000000001, 1.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
