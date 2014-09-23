@@ -33,5 +33,16 @@ namespace ProcessAutoTools.ORM.Properties {
                 return ((string)(this["ProcessAutoToolsConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.\\sqlexpress;Initial Catalog=ProcessAutoTools;User ID=sunil;Password=" +
+            "sunil")]
+        public string ProcessAutoToolsConnectionString1 {
+            get {
+                return ((string)(this["ProcessAutoToolsConnectionString1"]));
+            }
+        }
     }
 }

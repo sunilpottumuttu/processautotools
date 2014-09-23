@@ -36,7 +36,7 @@ namespace ProcessAutoTools.ORM
     #endregion
 		
 		public ProcessAutoToolsDataContext() : 
-				base(global::ProcessAutoTools.ORM.Properties.Settings.Default.ProcessAutoToolsConnectionString, mappingSource)
+				base(global::ProcessAutoTools.ORM.Properties.Settings.Default.ProcessAutoToolsConnectionString1, mappingSource)
 		{
 			OnCreated();
 		}
