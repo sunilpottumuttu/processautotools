@@ -7,10 +7,11 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ProcessAutoTools.POCOS
 {
-    public class User
+    public class Project
     {
-        public int UserID { get; set; }
+        public int ProjectID { get; set; }
+        
         [Required]
-        public string UserName { get; set; }
+        public string ProjectName { get; set; }
     }
 }

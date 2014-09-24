@@ -28,6 +28,18 @@ namespace ProcessAutoTools.BL
         }
 
 
+        public List<PCS.Project> GetProjects()
+        {
+            var results = (from p in this.db.Projects
+                           select new PCS.Project()
+                           {
+                               ProjectID = p.ProjectID,
+                               ProjectName = p.ProjectName
+                           }).ToList<PCS.Project>();
+            return results;
+        }
+        
+
         private bool disposedValue = false;
         protected virtual void Dispose(bool disposing)
         {

@@ -106,6 +106,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\edit.png" />
+    <Content Include="Content\logout.png" />
+    <Content Include="Content\settings.png" />
+    <Content Include="Content\trash.gif" />
     <Content Include="Global.asax" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -126,6 +130,7 @@
     <Compile Include="App_Start\AttributeRoutingConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\ProjectsController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -151,6 +156,10 @@
     <ProjectReference Include="..\ProcessAutoTools.BL\ProcessAutoTools.BL.csproj">
       <Project>{4f5b8405-f636-480e-8216-f7faa1c6b524}</Project>
       <Name>ProcessAutoTools.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProcessAutoTools.Extensions\ProcessAutoTools.Extensions.csproj">
+      <Project>{582f47e8-032f-44cb-8e19-325d894d67ce}</Project>
+      <Name>ProcessAutoTools.Extensions</Name>
     </ProjectReference>
     <ProjectReference Include="..\ProcessAutoTools.POCOS\ProcessAutoTools.POCOS.csproj">
       <Project>{11b9b6e8-aee1-455d-8282-089293765429}</Project>

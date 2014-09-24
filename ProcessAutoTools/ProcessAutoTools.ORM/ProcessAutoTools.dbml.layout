@@ -2,10 +2,16 @@
 <ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="ProcessAutoTools">
   <DataContextMoniker Name="/ProcessAutoToolsDataContext" />
   <nestedChildShapes>
-    <classShape Id="2ab0de24-f14b-4e65-b18c-65ddd1a9ce40" absoluteBounds="4, 1.875, 2, 1.3862939453125">
+    <classShape Id="2ab0de24-f14b-4e65-b18c-65ddd1a9ce40" absoluteBounds="1.125, 0.75, 2, 1.3862939453125">
       <DataClassMoniker Name="/ProcessAutoToolsDataContext/User" />
       <nestedChildShapes>
-        <elementListCompartment Id="df587784-6711-409c-a5c8-5abb1a05cfe1" absoluteBounds="4.015, 2.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="df587784-6711-409c-a5c8-5abb1a05cfe1" absoluteBounds="1.1399999999999997, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bfc6f1ef-d1b3-42f5-9f8b-25fb8a1d293a" absoluteBounds="5.125, 2.125, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/ProcessAutoToolsDataContext/Project" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e2c4f820-8b5a-43fd-8dfb-2724bcd57bba" absoluteBounds="5.14, 2.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
   </nestedChildShapes>

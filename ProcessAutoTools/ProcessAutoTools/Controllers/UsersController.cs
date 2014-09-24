@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.Mvc;
 using ProcessAutoTools.POCOS;
 using ProcessAutoTools.BL;
+using System.ComponentModel.DataAnnotations;
+using ProcessAutoTools.Extensions;
 
 namespace ProcessAutoTools.Controllers
 {
@@ -23,6 +25,7 @@ namespace ProcessAutoTools.Controllers
         [Route("Users/Validate")]
         public ActionResult ValidateUser()
         {
+            
             string userName = HttpContext.Request.Form["txtUserName"].ToString();
             string passWord = HttpContext.Request.Form["txtPassword"].ToString();
 
@@ -41,6 +44,9 @@ namespace ProcessAutoTools.Controllers
                     return this.Redirect("~/Projects");
                 }
             }
+
+            
+            
         }
 
         
