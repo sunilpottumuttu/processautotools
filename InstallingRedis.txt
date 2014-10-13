@@ -1,0 +1,10 @@
+1. created db directory
+2. copied the redis.windows.conf to db directory
+3. renamed to redis.conf
+4. edit redit.conf and changed maxheap 500mb  (reference url : http://www.cartoninjas.net/post/installing-redis-as-a-service-on-windows)
+ appendfsync always
+5. run the command from cmd 
+E:\Redis-64\Redis-64.2.8.12>redis-server E:\Redis-64\db\redis.conf
+
+
+
